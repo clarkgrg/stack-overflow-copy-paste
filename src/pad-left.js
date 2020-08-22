@@ -1,4 +1,4 @@
-export default padLeft
+export default padLeft;
 
 /**
  * Original Source: http://stackoverflow.com/a/34083277/971592
@@ -13,8 +13,8 @@ export default padLeft
  */
 function padLeft(str, size, padWith) {
   if (size <= str.length) {
-    return str
+    return str;
   } else {
-    return Array(size - str.length + 1).join(padWith || '0') + str
+    return Array(size - str.length + 1).join(padWith || "0") + str;
   }
 }
